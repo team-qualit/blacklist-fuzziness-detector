@@ -6,7 +6,7 @@ You can extend the list of blacklisted words by opening the file `blacklisted-wo
 
 For example:
 
-`good;Good is not measurable, please use a specific value;`
+`good;Good is not measurable, please use a specific value`
 
 `badword;This is a explaination why 'badword' is bad; This could be a second explanation or a suggestion to improve the 'badword'`
 
