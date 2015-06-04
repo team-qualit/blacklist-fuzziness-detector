@@ -1,6 +1,5 @@
 package ch.qualit.fuzziness.detector.blacklist;
 
-import ch.qualit.fuzziness.detector.spi.FuzzynessDetector;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,8 +9,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import ch.qualit.fuzziness.detector.spi.FuzzinessDetector;
 
-public class BlacklistDetector implements FuzzynessDetector {
+
+public class BlacklistDetector implements FuzzinessDetector {
 	private static final String BLACKLIST_WORDS_FILE = "blacklisted-words.csv";
 	private HashMap<String, ArrayList<String>> words;
 
